@@ -50,12 +50,42 @@ fn greeting() -> &'static str {
 // ⚠️ **DO NOT MODIFY THE TESTS** ⚠️
 // They are there to help you validate your solutions. You should only change the code that's being
 // tested, not the tests themselves.
-#[cfg(test)]
-mod tests {
-    use crate::greeting;
 
-    #[test]
+/*
+- #[...] 是 Rust 的属性（attribute）语法，用于给编译器提供额外指令。
+- cfg 表示条件编译
+- #[cfg(test)] 表示：下面这个模块只在编译测试时参与编译，普通 cargo build 时不包含它.
+- mod tests 定义一个名叫 tests 的模块。模块用于组织代码和控制可见性  tests 是约定俗成的名称
+*/
+#[cfg(test)] // 编译器提供的条件编译属性
+mod tests {
+    /*
+    - use：把某个路径下的名字引入当前作用域。
+    - crate：当前编译单元，通常称为“箱”。
+    - crate::greeting：当前 crate 根模块中的 greeting 函数。
+
+    Rust 按模块划分作用域，同一个文件里也可以有不同的模块。
+       外层：crate 根模块： fn greeting()
+       内层：tests 子模块，有自己的作用域：mod tests
+    父模块中的函数名不会自动引入子模块的作用域，所以需要说明要调用哪个 greeting。
+    三种等价写法：
+       方式一：从 crate 根模块引入
+           use crate::greeting;
+           之后调用 greeting()
+       方式二：从父模块引入
+           use super::greeting;
+           之后调用 greeting()
+       方式三：不引入，调用时写路径
+           assert_eq!(super::greeting(), "I'm ready to learn Rust!");
+
+    作用域和访问权限是两回事：Rust 允许子模块访问父模块的私有函数，因此这里的 greeting 不需要加 pub；但调用时仍需要正确的名字或路径。
+    */
+    use crate::greeting; // 把 greeting 引入当前模块，之后可以直接写 greeting()。
+
+    #[test] // #[test] 编译器提供的测试标记,将这个函数标记为测试用例。Rust 的测试运行器会发现并调用
     fn test_welcome() {
+        // assert_eq! 是断言宏，用来检查两个表达式的值是否相等。末尾的 ! 表示这是宏调用，与普通函数调用不同。
+        // Rust 标准库提供的宏，默认就能使用
         assert_eq!(greeting(), "I'm ready to learn Rust!");
     }
 }
