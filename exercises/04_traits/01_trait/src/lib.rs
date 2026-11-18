@@ -1,3 +1,5 @@
+// 学习笔记：docs/04_traits/01_trait/learning.md
+
 // Define a trait named `IsEven` that has a method `is_even` that returns a `true` if `self` is
 // even, otherwise `false`.
 //

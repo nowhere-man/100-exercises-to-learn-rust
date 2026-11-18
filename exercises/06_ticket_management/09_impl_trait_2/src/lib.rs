@@ -1,3 +1,5 @@
+// 学习笔记：docs/06_ticket_management/09_impl_trait_2/learning.md
+
 // TODO: Rework the signature of `TicketStore::add_ticket` to use a generic type parameter rather
 //  than `impl Trait` syntax.
 

@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/08_error_enums/learning.md
+
 // TODO: Use two variants, one for a title error and one for a description error.
 //   Each variant should contain a string with the explanation of what went wrong exactly.
 //   You'll have to update the implementation of `Ticket::new` as well.

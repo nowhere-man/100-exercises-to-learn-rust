@@ -1,3 +1,5 @@
+// 学习笔记：docs/06_ticket_management/00_intro/learning.md
+
 fn intro() -> &'static str {
     // TODO: fix me 👇
     "I'm ready to __!"

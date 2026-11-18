@@ -1,3 +1,5 @@
+// 学习笔记：docs/06_ticket_management/16_btreemap/learning.md
+
 // TODO: Replace `todo!()`s with the correct implementation.
 //  Implement `IntoIterator` for `&TicketStore`. The iterator should yield immutable
 //  references to the tickets, ordered by their `TicketId`.

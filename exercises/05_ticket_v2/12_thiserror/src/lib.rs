@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/12_thiserror/learning.md
+
 // TODO: Implement the `Error` trait for `TicketNewError` using `thiserror`.
 //   We've changed the enum variants to be more specific, thus removing the need for storing
 //   a `String` field into each variant.

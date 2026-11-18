@@ -1,3 +1,5 @@
+// 学习笔记：docs/04_traits/08_sized/learning.md
+
 pub fn example() {
     // Trying to get the size of a str (or any other DST)
     // via `std::mem::size_of` will result in a compile-time error.

@@ -1,3 +1,5 @@
+// 学习笔记：docs/03_ticket_v1/01_struct/learning.md
+
 // Define a struct named `Order` with the following fields:
 // - `price`, an unsigned integer
 // - `quantity`, an unsigned integer

@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/13_try_from/learning.md
+
 // TODO: Implement `TryFrom<String>` and `TryFrom<&str>` for `Status`.
 //  The parsing should be case-insensitive.
 

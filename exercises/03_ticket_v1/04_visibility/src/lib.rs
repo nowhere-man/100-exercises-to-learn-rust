@@ -1,3 +1,5 @@
+// 学习笔记：docs/03_ticket_v1/04_visibility/learning.md
+
 mod ticket {
     struct Ticket {
         title: String,

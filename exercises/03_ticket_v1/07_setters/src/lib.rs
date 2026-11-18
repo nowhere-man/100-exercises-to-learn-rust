@@ -1,3 +1,5 @@
+// 学习笔记：docs/03_ticket_v1/07_setters/learning.md
+
 // TODO: Add &mut-setters to the `Ticket` struct for each of its fields.
 //   Make sure to enforce the same validation rules you have in `Ticket::new`!
 //   Even better, extract that logic and reuse it in both places. You can use

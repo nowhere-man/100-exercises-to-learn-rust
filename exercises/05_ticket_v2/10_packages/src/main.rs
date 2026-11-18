@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/10_packages/learning.md
+
 // This is a `main.rs` file, therefore `cargo` interprets this as the root of a binary target.
 
 // TODO: fix this broken import. Create a new library target in the `src` directory.

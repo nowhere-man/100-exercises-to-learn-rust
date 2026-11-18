@@ -1,3 +1,5 @@
+// 学习笔记：docs/03_ticket_v1/12_outro/learning.md
+
 // TODO: Define a new `Order` type.
 //   It should keep track of three pieces of information: `product_name`, `quantity`, and `unit_price`.
 //   The product name can't be empty and it can't be longer than 300 bytes.

@@ -1,3 +1,5 @@
+// 学习笔记：docs/02_basic_calculator/05_factorial/learning.md
+
 // Define a function named `factorial` that, given a non-negative integer `n`,
 // returns `n!`, the factorial of `n`.
 //

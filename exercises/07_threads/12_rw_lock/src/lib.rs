@@ -1,3 +1,5 @@
+// 学习笔记：docs/07_threads/12_rw_lock/learning.md
+
 // TODO: Replace `Mutex` with `RwLock` in the `TicketStore` struct and
 //  all other relevant places to allow multiple readers to access the ticket store concurrently.
 use std::sync::mpsc::{sync_channel, Receiver, SyncSender, TrySendError};

@@ -1,3 +1,5 @@
+// 学习笔记：docs/06_ticket_management/03_resizing/learning.md
+
 #[cfg(test)]
 mod tests {
     #[test]

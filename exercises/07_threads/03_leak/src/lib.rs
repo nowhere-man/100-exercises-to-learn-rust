@@ -1,3 +1,5 @@
+// 学习笔记：docs/07_threads/03_leak/learning.md
+
 // TODO: Given a vector of integers, leak its heap allocation.
 //  Then split the resulting static slice into two halves and
 //  sum each half in a separate thread.

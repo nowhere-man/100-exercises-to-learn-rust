@@ -1,3 +1,5 @@
+// 学习笔记：docs/06_ticket_management/01_arrays/learning.md
+
 // TODO: Flesh out the `WeekTemperatures` struct and its method implementations to pass the tests.
 
 pub struct WeekTemperatures {

@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/07_unwrap/learning.md
+
 // TODO: `easy_ticket` should panic when the title is invalid.
 //   When the description is invalid, instead, it should use a default description:
 //   "Description not provided".

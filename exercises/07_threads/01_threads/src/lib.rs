@@ -1,3 +1,5 @@
+// 学习笔记：docs/07_threads/01_threads/learning.md
+
 // TODO: implement a multi-threaded version of the `sum` function
 //  using `spawn` and `join`.
 //  Given a vector of integers, split the vector into two halves and

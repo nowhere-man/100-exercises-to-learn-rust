@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/09_error_trait/learning.md
+
 // TODO: Implement `Debug`, `Display` and `Error` for the `TicketNewError` enum.
 //  When implementing `Display`, you may want to use the `write!` macro from Rust's standard library.
 //  The docs for the `std::fmt` module are a good place to start and look for examples:

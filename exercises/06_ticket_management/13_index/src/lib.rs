@@ -1,3 +1,5 @@
+// 学习笔记：docs/06_ticket_management/13_index/learning.md
+
 // TODO: Implement `Index<&TicketId>` and `Index<TicketId>` for `TicketStore`.
 
 use ticket_fields::{TicketDescription, TicketTitle};

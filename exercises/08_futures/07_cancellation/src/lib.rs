@@ -1,3 +1,5 @@
+// 学习笔记：docs/08_futures/07_cancellation/learning.md
+
 // TODO: fix the `assert_eq` at the end of the tests.
 //  Do you understand why that's the resulting output?
 use std::time::Duration;

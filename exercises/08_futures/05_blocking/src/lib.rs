@@ -1,3 +1,5 @@
+// 学习笔记：docs/08_futures/05_blocking/learning.md
+
 // TODO: the `echo` server uses non-async primitives.
 //  When running the tests, you should observe that it hangs, due to a
 //  deadlock between the caller and the server.

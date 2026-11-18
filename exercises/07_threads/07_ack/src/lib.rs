@@ -1,3 +1,5 @@
+// 学习笔记：docs/07_threads/07_ack/learning.md
+
 use std::sync::mpsc::{Receiver, Sender};
 use crate::store::TicketStore;
 

@@ -1,3 +1,5 @@
+// 学习笔记：docs/04_traits/07_deref/learning.md
+
 // TODO: whenever `title` and `description` are returned via their accessor methods, they
 //   should be normalized—i.e. leading and trailing whitespace should be removed.
 //   There is a method in Rust's standard library that can help with this, but you won't

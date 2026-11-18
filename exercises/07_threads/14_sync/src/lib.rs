@@ -1,3 +1,5 @@
+// 学习笔记：docs/07_threads/14_sync/learning.md
+
 // Not much to be exercised on `Sync`, just a thing to remember.
 fn outro() -> &'static str {
     "I have a good understanding of __!"

@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/15_outro/learning.md
+
 // TODO: Implement `TryFrom<String>` and `TryFrom<&str>` for the `Status` enum.
 //  The parsing should be case-insensitive.
 

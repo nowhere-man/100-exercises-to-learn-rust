@@ -1,3 +1,5 @@
+// 学习笔记：docs/02_basic_calculator/07_for/learning.md
+
 // Rewrite the factorial function using a `for` loop.
 pub fn factorial(n: u32) -> u32 {
     todo!()

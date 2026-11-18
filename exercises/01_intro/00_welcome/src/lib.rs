@@ -1,3 +1,5 @@
+// 学习笔记：docs/01_intro/00_welcome/learning.md
+
 // This is a Rust file. It is a plain text file with a `.rs` extension.
 //
 // Like most modern programming languages, Rust supports comments. You're looking at one right now!
@@ -15,9 +17,22 @@
 //
 // If you get stuck for more than 10 minutes on an exercise, grab a trainer! We're here to help!
 // You can also find solutions to all exercises in the `solutions` git branch.
+/*
+
+&：借用，表示返回一个引用，还表示这是一个共享的、不可变的引用，所以不能通过它修改被引用的数据。
+'static：生命周期名称，表示这个引用至少在整个程序运行期间都有效
+
+&'static str 的意思是:指向一段生命周期为 'static 的字符串切片的引用
+'static 表示的是生命周期最长的一类引用，并不等同于“不可变”。真正的不可变性来自 &；如果是可变引用，会写成： &'static mut str
+& 不会让数据本身变成永久不可变，它只表示“不能通过这个引用修改数据”
+*/
 fn greeting() -> &'static str {
     // TODO: fix me 👇
-    "I'm ready to __!"
+    // 注意这里没有分号，如果加上分号：实际上会返回空元组 ()，编译会报错
+    // 在 Rust 中，"hello"是一个，表达式有值，，它的值是字符串切片
+    // 加上分号后： "hello"; 它就被当成了一条表达式语句。这条语句会计算 "hello"，但计算结果被丢弃，整条语句的结果是 ()
+    "I'm ready to learn Rust!"
+    // 隐式返回:Rust 函数会把最后一个表达式的值作为返回
 }
 
 // Your solutions will be automatically verified by a set of tests.

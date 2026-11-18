@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/15_outro/learning.md
+
 // TODO: you have something to do in each of the modules in this crate!
 mod description;
 mod status;

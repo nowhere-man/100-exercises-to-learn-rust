@@ -1,3 +1,5 @@
+// 学习笔记：docs/03_ticket_v1/08_stack/learning.md
+
 // TODO: based on what you learned in this section, replace `todo!()` with
 //  the correct **stack size** for the respective type.
 #[cfg(test)]

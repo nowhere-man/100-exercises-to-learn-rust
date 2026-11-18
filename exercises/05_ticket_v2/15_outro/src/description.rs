@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/15_outro/learning.md
+
 // TODO: Implement `TryFrom<String>` and `TryFrom<&str>` for the `TicketDescription` type,
 //   enforcing that the description is not empty and is not longer than 500 bytes.
 //   Implement the traits required to make the tests pass too.

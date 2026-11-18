@@ -1,3 +1,5 @@
+// 学习笔记：docs/07_threads/12_rw_lock/learning.md
+
 use crate::store::TicketId;
 use ticket_fields::{TicketDescription, TicketTitle};
 

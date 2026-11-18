@@ -1,3 +1,5 @@
+// 学习笔记：docs/02_basic_calculator/06_while/learning.md
+
 // Rewrite the factorial function using a `while` loop.
 pub fn factorial(n: u32) -> u32 {
     // The `todo!()` macro is a placeholder that the compiler

@@ -1,3 +1,5 @@
+// 学习笔记：docs/04_traits/02_orphan_rule/learning.md
+
 // TODO: this is an example of an orphan rule violation.
 //  We're implementing a foreign trait (`PartialEq`, from `std`) on
 //  a foreign type (`u32`, from `std`).

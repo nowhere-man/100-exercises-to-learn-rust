@@ -1,3 +1,5 @@
+// 学习笔记：docs/07_threads/05_channels/learning.md
+
 use std::sync::mpsc::{Receiver, Sender};
 
 pub mod data;

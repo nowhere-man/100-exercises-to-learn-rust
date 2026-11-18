@@ -1,3 +1,5 @@
+// 学习笔记：docs/02_basic_calculator/09_saturating/learning.md
+
 pub fn factorial(n: u32) -> u32 {
     let mut result = 1;
     for i in 1..=n {

@@ -1,3 +1,5 @@
+// 学习笔记：docs/07_threads/13_without_channels/learning.md
+
 // TODO: You don't actually have to change anything in the library itself!
 //  We mostly had to **remove** code (the client type, the launch function, the command enum)
 //  that's no longer necessary.

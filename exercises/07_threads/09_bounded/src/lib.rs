@@ -1,3 +1,5 @@
+// 学习笔记：docs/07_threads/09_bounded/learning.md
+
 // TODO: Convert the implementation to use bounded channels.
 use crate::data::{Ticket, TicketDraft};
 use crate::store::{TicketId, TicketStore};

@@ -1,3 +1,5 @@
+// 学习笔记：docs/06_ticket_management/11_mutable_slices/learning.md
+
 // TODO: Define a function named `squared` that raises all `i32`s within a slice to the power of 2.
 //  The slice should be modified in place.
 

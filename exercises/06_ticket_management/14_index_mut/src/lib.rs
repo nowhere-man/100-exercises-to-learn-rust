@@ -1,3 +1,5 @@
+// 学习笔记：docs/06_ticket_management/14_index_mut/learning.md
+
 // TODO: Implement `IndexMut<&TicketId>` and `IndexMut<TicketId>` for `TicketStore`.
 
 use std::ops::Index;

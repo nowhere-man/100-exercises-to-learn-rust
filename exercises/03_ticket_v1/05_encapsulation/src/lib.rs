@@ -1,3 +1,5 @@
+// 学习笔记：docs/03_ticket_v1/05_encapsulation/learning.md
+
 pub mod ticket {
     pub struct Ticket {
         title: String,

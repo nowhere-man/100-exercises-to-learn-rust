@@ -1,3 +1,5 @@
+// 学习笔记：docs/07_threads/02_static/learning.md
+
 // TODO: Given a static slice of integers, split the slice into two halves and
 //  sum each half in a separate thread.
 //  Do not allocate any additional memory!

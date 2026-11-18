@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/03_variants_with_data/learning.md
+
 // TODO: Implement `Ticket::assigned_to`.
 //  Return the name of the person assigned to the ticket, if the ticket is in progress.
 //  Panic otherwise.

@@ -1,3 +1,5 @@
+// 学习笔记：docs/03_ticket_v1/10_references_in_memory/learning.md
+
 pub struct Ticket {
     title: String,
     description: String,

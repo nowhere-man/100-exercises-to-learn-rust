@@ -1,3 +1,5 @@
+// 学习笔记：docs/03_ticket_v1/02_validation/learning.md
+
 struct Ticket {
     title: String,
     description: String,

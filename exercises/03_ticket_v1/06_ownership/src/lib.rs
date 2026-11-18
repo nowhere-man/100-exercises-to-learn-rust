@@ -1,3 +1,5 @@
+// 学习笔记：docs/03_ticket_v1/06_ownership/learning.md
+
 // TODO: based on what we just learned about ownership, it sounds like immutable references
 //   are a good fit for our accessor methods.
 //   Change the existing implementation of `Ticket`'s accessor methods to take a reference

@@ -1,3 +1,5 @@
+// 学习笔记：docs/05_ticket_v2/05_nullability/learning.md
+
 // TODO: Implement `Ticket::assigned_to` using `Option` as the return type.
 
 #[derive(Debug, PartialEq)]

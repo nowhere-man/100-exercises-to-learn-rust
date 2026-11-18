@@ -1,3 +1,5 @@
+// 学习笔记：docs/08_futures/04_future/learning.md
+
 //! TODO: get the code to compile by **re-ordering** the statements
 //!  in the `example` function. You're not allowed to change the
 //!  `spawner` function nor what each line does in `example`.

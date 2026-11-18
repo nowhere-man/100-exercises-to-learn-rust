@@ -1,3 +1,5 @@
+// 学习笔记：docs/06_ticket_management/06_lifetimes/learning.md
+
 use ticket_fields::{TicketDescription, TicketTitle};
 
 // TODO: Implement the `IntoIterator` trait for `&TicketStore` so that the test compiles and passes.

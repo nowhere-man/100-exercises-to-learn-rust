@@ -1,3 +1,5 @@
+// 学习笔记：docs/04_traits/06_str_slice/learning.md
+
 // TODO: Re-implement `Ticket`'s accessor methods. This time return a `&str` rather than a `&String`.
 
 pub struct Ticket {

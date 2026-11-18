@@ -1,3 +1,5 @@
+// 学习笔记：docs/04_traits/10_assoc_vs_generic/learning.md
+
 // TODO: Define a new trait, `Power`, that has a method `power` that raises `self`
 //  to the power of `n`.
 //  The trait definition and its implementations should be enough to get
