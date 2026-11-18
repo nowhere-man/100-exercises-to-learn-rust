@@ -1,4 +1,5 @@
 // 学习笔记：docs/06_ticket_management/02_vec/learning.md
+// 测试命令： cargo test --manifest-path exercises/06_ticket_management/02_vec/Cargo.toml
 
 // Given a number `n`, return the `n+1`th number in the Fibonacci sequence.
 //

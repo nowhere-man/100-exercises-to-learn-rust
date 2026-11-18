@@ -1,4 +1,5 @@
 // 学习笔记：docs/06_ticket_management/13_index/learning.md
+// 测试命令： cargo test --manifest-path exercises/06_ticket_management/13_index/Cargo.toml
 
 // TODO: Implement `Index<&TicketId>` and `Index<TicketId>` for `TicketStore`.
 

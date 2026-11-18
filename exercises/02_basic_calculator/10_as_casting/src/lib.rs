@@ -1,4 +1,5 @@
 // 学习笔记：docs/02_basic_calculator/10_as_casting/learning.md
+// 测试命令： cargo test --manifest-path exercises/02_basic_calculator/10_as_casting/Cargo.toml
 
 // TODO: based on what you learned in this section, replace `todo!()` with
 //  the correct value after the conversion.

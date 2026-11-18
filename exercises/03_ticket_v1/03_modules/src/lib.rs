@@ -1,4 +1,5 @@
 // 学习笔记：docs/03_ticket_v1/03_modules/learning.md
+// 测试命令： cargo test --manifest-path exercises/03_ticket_v1/03_modules/Cargo.toml
 
 mod helpers {
     // TODO: Make this code compile, either by adding a `use` statement or by using

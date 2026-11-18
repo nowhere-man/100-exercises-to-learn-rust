@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/12_copy/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/12_copy/Cargo.toml
 
 // TODO: implement the necessary traits to make the test compile and pass.
 //  You *can't* modify the test.

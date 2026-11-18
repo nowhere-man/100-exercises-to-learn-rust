@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/06_fallibility/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/06_fallibility/Cargo.toml
 
 // TODO: Convert the `Ticket::new` method to return a `Result` instead of panicking.
 //   Use `String` as the error type.

@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/10_packages/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/10_packages/Cargo.toml
 
 // This is a `main.rs` file, therefore `cargo` interprets this as the root of a binary target.
 

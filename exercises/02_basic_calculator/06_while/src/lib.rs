@@ -1,4 +1,5 @@
 // 学习笔记：docs/02_basic_calculator/06_while/learning.md
+// 测试命令： cargo test --manifest-path exercises/02_basic_calculator/06_while/Cargo.toml
 
 // Rewrite the factorial function using a `while` loop.
 pub fn factorial(n: u32) -> u32 {

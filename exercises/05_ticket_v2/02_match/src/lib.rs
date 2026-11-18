@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/02_match/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/02_match/Cargo.toml
 
 enum Shape {
     Circle,

@@ -1,4 +1,5 @@
 // 学习笔记：docs/06_ticket_management/12_two_states/learning.md
+// 测试命令： cargo test --manifest-path exercises/06_ticket_management/12_two_states/Cargo.toml
 
 // TODO: Update `add_ticket`'s signature: it should take a `TicketDraft` as input
 //  and return a `TicketId` as output.

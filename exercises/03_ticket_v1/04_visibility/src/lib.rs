@@ -1,4 +1,5 @@
 // 学习笔记：docs/03_ticket_v1/04_visibility/learning.md
+// 测试命令： cargo test --manifest-path exercises/03_ticket_v1/04_visibility/Cargo.toml
 
 mod ticket {
     struct Ticket {

@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/13_without_channels/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/13_without_channels/Cargo.toml
 
 use std::collections::BTreeMap;
 use std::sync::{Arc, RwLock};

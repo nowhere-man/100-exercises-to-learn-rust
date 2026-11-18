@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/11_locks/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/11_locks/Cargo.toml
 
 // TODO: Fill in the missing methods for `TicketStore`.
 //  Notice how we no longer need a separate update command: `Get` now returns a handle to the ticket

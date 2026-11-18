@@ -1,4 +1,5 @@
 // 学习笔记：docs/03_ticket_v1/12_outro/learning.md
+// 测试命令： cargo test --manifest-path exercises/03_ticket_v1/12_outro/Cargo.toml
 
 // TODO: Define a new `Order` type.
 //   It should keep track of three pieces of information: `product_name`, `quantity`, and `unit_price`.

@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/03_leak/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/03_leak/Cargo.toml
 
 // TODO: Given a vector of integers, leak its heap allocation.
 //  Then split the resulting static slice into two halves and

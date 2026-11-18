@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/01_trait/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/01_trait/Cargo.toml
 
 // Define a trait named `IsEven` that has a method `is_even` that returns a `true` if `self` is
 // even, otherwise `false`.

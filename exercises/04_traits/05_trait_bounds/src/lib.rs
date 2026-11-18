@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/05_trait_bounds/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/05_trait_bounds/Cargo.toml
 
 // TODO: Add the necessary trait bounds to `min` so that it compiles successfully.
 //   Refer to the documentation of the `std::cmp` module for more information on the traits you might need.

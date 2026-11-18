@@ -1,4 +1,5 @@
 // 学习笔记：docs/08_futures/06_async_aware_primitives/learning.md
+// 测试命令： cargo test --manifest-path exercises/08_futures/06_async_aware_primitives/Cargo.toml
 
 /// TODO: the code below will deadlock because it's using std's channels,
 ///  which are not async-aware.

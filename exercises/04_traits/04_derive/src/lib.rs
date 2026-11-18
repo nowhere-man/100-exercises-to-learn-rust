@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/04_derive/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/04_derive/Cargo.toml
 
 // TODO: A (derivable) trait implementation is missing for this exercise to compile successfully.
 //   Fix it!

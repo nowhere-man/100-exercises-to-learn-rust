@@ -1,4 +1,5 @@
 // 学习笔记：docs/06_ticket_management/10_slices/learning.md
+// 测试命令： cargo test --manifest-path exercises/06_ticket_management/10_slices/Cargo.toml
 
 // TODO: Define a function named `sum` that takes a reference to a slice of `u32` and returns the sum of all
 //  elements in the slice.

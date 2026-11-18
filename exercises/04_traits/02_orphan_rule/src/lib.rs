@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/02_orphan_rule/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/02_orphan_rule/Cargo.toml
 
 // TODO: this is an example of an orphan rule violation.
 //  We're implementing a foreign trait (`PartialEq`, from `std`) on

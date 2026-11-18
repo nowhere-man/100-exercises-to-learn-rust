@@ -1,4 +1,5 @@
 // 学习笔记：docs/06_ticket_management/16_btreemap/learning.md
+// 测试命令： cargo test --manifest-path exercises/06_ticket_management/16_btreemap/Cargo.toml
 
 // TODO: Replace `todo!()`s with the correct implementation.
 //  Implement `IntoIterator` for `&TicketStore`. The iterator should yield immutable

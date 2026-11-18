@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/01_threads/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/01_threads/Cargo.toml
 
 // TODO: implement a multi-threaded version of the `sum` function
 //  using `spawn` and `join`.

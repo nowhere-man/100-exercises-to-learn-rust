@@ -1,4 +1,5 @@
 // 学习笔记：docs/06_ticket_management/15_hashmap/learning.md
+// 测试命令： cargo test --manifest-path exercises/06_ticket_management/15_hashmap/Cargo.toml
 
 // TODO: Replace `todo!()`s with the correct implementation.
 //  Implement additional traits on `TicketId` if needed.

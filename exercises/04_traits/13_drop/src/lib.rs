@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/13_drop/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/13_drop/Cargo.toml
 
 // TODO: implement a so-called "Drop bomb": a type that panics when dropped
 //  unless a certain operation has been performed on it.

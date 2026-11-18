@@ -1,4 +1,5 @@
 // 学习笔记：docs/03_ticket_v1/07_setters/learning.md
+// 测试命令： cargo test --manifest-path exercises/03_ticket_v1/07_setters/Cargo.toml
 
 // TODO: Add &mut-setters to the `Ticket` struct for each of its fields.
 //   Make sure to enforce the same validation rules you have in `Ticket::new`!

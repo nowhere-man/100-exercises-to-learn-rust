@@ -1,4 +1,5 @@
 // 学习笔记：docs/02_basic_calculator/08_overflow/learning.md
+// 测试命令： cargo test --manifest-path exercises/02_basic_calculator/08_overflow/Cargo.toml
 
 // Customize the `dev` profile to wrap around on overflow.
 // Check Cargo's documentation to find out the right syntax:

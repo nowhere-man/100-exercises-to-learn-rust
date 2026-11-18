@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/14_outro/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/14_outro/Cargo.toml
 
 // TODO: Define a new `SaturatingU16` type.
 //   It should hold a `u16` value.

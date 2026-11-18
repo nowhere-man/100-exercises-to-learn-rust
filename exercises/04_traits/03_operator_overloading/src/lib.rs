@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/03_operator_overloading/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/03_operator_overloading/Cargo.toml
 
 use std::cmp::PartialEq;
 

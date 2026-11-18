@@ -1,4 +1,5 @@
 // 学习笔记：docs/08_futures/03_runtime/learning.md
+// 测试命令： cargo test --manifest-path exercises/08_futures/03_runtime/Cargo.toml
 
 // TODO: Implement the `fixed_reply` function. It should accept two `TcpListener` instances,
 //  accept connections on both of them concurrently, and always reply to clients by sending

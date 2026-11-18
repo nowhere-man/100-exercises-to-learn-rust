@@ -1,4 +1,5 @@
 // 学习笔记：docs/06_ticket_management/08_impl_trait/learning.md
+// 测试命令： cargo test --manifest-path exercises/06_ticket_management/08_impl_trait/Cargo.toml
 
 // TODO: Implement the `in_progress` method. It must return an iterator over the tickets in
 //  `TicketStore` with status set to `Status::InProgress`.

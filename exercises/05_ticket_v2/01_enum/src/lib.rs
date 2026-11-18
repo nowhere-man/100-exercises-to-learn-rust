@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/01_enum/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/01_enum/Cargo.toml
 
 // TODO: use `Status` as type for `Ticket::status`
 //   Adjust the signature and implementation of all other methods as necessary.

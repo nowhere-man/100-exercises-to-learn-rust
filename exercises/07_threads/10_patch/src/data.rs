@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/10_patch/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/10_patch/Cargo.toml
 
 use crate::store::TicketId;
 use ticket_fields::{TicketDescription, TicketTitle};

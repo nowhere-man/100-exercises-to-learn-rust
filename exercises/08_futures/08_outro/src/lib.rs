@@ -1,4 +1,5 @@
 // 学习笔记：docs/08_futures/08_outro/learning.md
+// 测试命令： cargo test --manifest-path exercises/08_futures/08_outro/Cargo.toml
 
 // This is our last exercise. Let's go down a more unstructured path!
 // Try writing an **asynchronous REST API** to expose the functionality

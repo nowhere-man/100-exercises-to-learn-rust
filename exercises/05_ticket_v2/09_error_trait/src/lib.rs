@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/09_error_trait/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/09_error_trait/Cargo.toml
 
 // TODO: Implement `Debug`, `Display` and `Error` for the `TicketNewError` enum.
 //  When implementing `Display`, you may want to use the `write!` macro from Rust's standard library.

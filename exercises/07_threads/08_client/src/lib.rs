@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/08_client/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/08_client/Cargo.toml
 
 use crate::data::{Ticket, TicketDraft};
 use crate::store::{TicketId, TicketStore};

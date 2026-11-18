@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/05_nullability/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/05_nullability/Cargo.toml
 
 // TODO: Implement `Ticket::assigned_to` using `Option` as the return type.
 

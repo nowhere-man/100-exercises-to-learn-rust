@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/07_ack/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/07_ack/Cargo.toml
 
 use crate::data::{Status, Ticket, TicketDraft};
 use std::collections::BTreeMap;

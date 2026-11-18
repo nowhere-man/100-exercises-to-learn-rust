@@ -1,4 +1,5 @@
 // 学习笔记：docs/06_ticket_management/04_iterators/learning.md
+// 测试命令： cargo test --manifest-path exercises/06_ticket_management/04_iterators/Cargo.toml
 
 use ticket_fields::{TicketDescription, TicketTitle};
 

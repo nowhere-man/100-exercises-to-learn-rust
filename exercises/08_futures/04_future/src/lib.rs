@@ -1,4 +1,5 @@
 // 学习笔记：docs/08_futures/04_future/learning.md
+// 测试命令： cargo test --manifest-path exercises/08_futures/04_future/Cargo.toml
 
 //! TODO: get the code to compile by **re-ordering** the statements
 //!  in the `example` function. You're not allowed to change the

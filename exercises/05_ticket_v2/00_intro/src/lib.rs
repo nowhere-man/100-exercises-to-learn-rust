@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/00_intro/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/00_intro/Cargo.toml
 
 fn intro() -> &'static str {
     // TODO: fix me 👇

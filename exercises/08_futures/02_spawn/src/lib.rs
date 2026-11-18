@@ -1,4 +1,5 @@
 // 学习笔记：docs/08_futures/02_spawn/learning.md
+// 测试命令： cargo test --manifest-path exercises/08_futures/02_spawn/Cargo.toml
 
 use tokio::net::TcpListener;
 

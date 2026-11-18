@@ -1,4 +1,5 @@
 // 学习笔记：docs/06_ticket_management/11_mutable_slices/learning.md
+// 测试命令： cargo test --manifest-path exercises/06_ticket_management/11_mutable_slices/Cargo.toml
 
 // TODO: Define a function named `squared` that raises all `i32`s within a slice to the power of 2.
 //  The slice should be modified in place.

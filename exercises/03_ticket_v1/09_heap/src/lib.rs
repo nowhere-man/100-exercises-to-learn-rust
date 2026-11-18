@@ -1,4 +1,5 @@
 // 学习笔记：docs/03_ticket_v1/09_heap/learning.md
+// 测试命令： cargo test --manifest-path exercises/03_ticket_v1/09_heap/Cargo.toml
 
 pub struct Ticket {
     title: String,

@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/12_thiserror/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/12_thiserror/Cargo.toml
 
 // TODO: Implement the `Error` trait for `TicketNewError` using `thiserror`.
 //   We've changed the enum variants to be more specific, thus removing the need for storing

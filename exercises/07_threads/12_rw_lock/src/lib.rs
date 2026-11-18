@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/12_rw_lock/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/12_rw_lock/Cargo.toml
 
 // TODO: Replace `Mutex` with `RwLock` in the `TicketStore` struct and
 //  all other relevant places to allow multiple readers to access the ticket store concurrently.

@@ -1,4 +1,5 @@
 // 学习笔记：docs/03_ticket_v1/02_validation/learning.md
+// 测试命令： cargo test --manifest-path exercises/03_ticket_v1/02_validation/Cargo.toml
 
 struct Ticket {
     title: String,

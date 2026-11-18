@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/15_outro/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/15_outro/Cargo.toml
 
 // TODO: Implement `TryFrom<String>` and `TryFrom<&str>` for the `TicketDescription` type,
 //   enforcing that the description is not empty and is not longer than 500 bytes.

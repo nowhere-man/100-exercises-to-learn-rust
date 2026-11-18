@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/06_interior_mutability/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/06_interior_mutability/Cargo.toml
 
 // TODO: Use `Rc` and `RefCell` to implement `DropTracker<T>`, a wrapper around a value of type `T`
 //  that increments a shared `usize` counter every time the wrapped value is dropped.

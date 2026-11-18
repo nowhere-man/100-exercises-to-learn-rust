@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/11_clone/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/11_clone/Cargo.toml
 
 // TODO: add the necessary `Clone` implementations (and invocations)
 //  to get the code to compile.

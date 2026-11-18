@@ -1,4 +1,5 @@
 // 学习笔记：docs/03_ticket_v1/01_struct/learning.md
+// 测试命令： cargo test --manifest-path exercises/03_ticket_v1/01_struct/Cargo.toml
 
 // Define a struct named `Order` with the following fields:
 // - `price`, an unsigned integer

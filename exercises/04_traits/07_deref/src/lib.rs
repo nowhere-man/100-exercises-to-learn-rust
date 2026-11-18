@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/07_deref/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/07_deref/Cargo.toml
 
 // TODO: whenever `title` and `description` are returned via their accessor methods, they
 //   should be normalized—i.e. leading and trailing whitespace should be removed.

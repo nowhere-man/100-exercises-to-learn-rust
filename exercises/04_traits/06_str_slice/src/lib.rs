@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/06_str_slice/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/06_str_slice/Cargo.toml
 
 // TODO: Re-implement `Ticket`'s accessor methods. This time return a `&str` rather than a `&String`.
 

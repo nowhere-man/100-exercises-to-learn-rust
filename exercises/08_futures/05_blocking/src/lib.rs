@@ -1,4 +1,5 @@
 // 学习笔记：docs/08_futures/05_blocking/learning.md
+// 测试命令： cargo test --manifest-path exercises/08_futures/05_blocking/Cargo.toml
 
 // TODO: the `echo` server uses non-async primitives.
 //  When running the tests, you should observe that it hangs, due to a

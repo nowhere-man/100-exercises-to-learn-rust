@@ -1,4 +1,5 @@
 // 学习笔记：docs/04_traits/10_assoc_vs_generic/learning.md
+// 测试命令： cargo test --manifest-path exercises/04_traits/10_assoc_vs_generic/Cargo.toml
 
 // TODO: Define a new trait, `Power`, that has a method `power` that raises `self`
 //  to the power of `n`.

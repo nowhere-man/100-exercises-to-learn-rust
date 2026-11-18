@@ -1,4 +1,5 @@
 // 学习笔记：docs/01_intro/00_welcome/learning.md
+// 测试命令： cargo test --manifest-path exercises/01_intro/00_welcome/Cargo.toml
 
 // This is a Rust file. It is a plain text file with a `.rs` extension.
 //

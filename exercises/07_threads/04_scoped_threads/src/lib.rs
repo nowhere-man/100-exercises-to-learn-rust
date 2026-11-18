@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/04_scoped_threads/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/04_scoped_threads/Cargo.toml
 
 // TODO: Given a vector of integers, split it in two halves
 //  and compute the sum of each half in a separate thread.

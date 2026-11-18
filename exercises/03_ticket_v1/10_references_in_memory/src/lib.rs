@@ -1,4 +1,5 @@
 // 学习笔记：docs/03_ticket_v1/10_references_in_memory/learning.md
+// 测试命令： cargo test --manifest-path exercises/03_ticket_v1/10_references_in_memory/Cargo.toml
 
 pub struct Ticket {
     title: String,

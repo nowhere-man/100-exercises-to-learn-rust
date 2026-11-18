@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/14_source/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/14_source/Cargo.toml
 
 #[derive(Debug, PartialEq, Clone)]
 pub enum Status {

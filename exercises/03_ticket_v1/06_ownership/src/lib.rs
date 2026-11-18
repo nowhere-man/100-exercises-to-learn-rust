@@ -1,4 +1,5 @@
 // 学习笔记：docs/03_ticket_v1/06_ownership/learning.md
+// 测试命令： cargo test --manifest-path exercises/03_ticket_v1/06_ownership/Cargo.toml
 
 // TODO: based on what we just learned about ownership, it sounds like immutable references
 //   are a good fit for our accessor methods.

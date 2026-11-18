@@ -1,4 +1,5 @@
 // 学习笔记：docs/07_threads/02_static/learning.md
+// 测试命令： cargo test --manifest-path exercises/07_threads/02_static/Cargo.toml
 
 // TODO: Given a static slice of integers, split the slice into two halves and
 //  sum each half in a separate thread.

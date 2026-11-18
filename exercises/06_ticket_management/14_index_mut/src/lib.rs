@@ -1,4 +1,5 @@
 // 学习笔记：docs/06_ticket_management/14_index_mut/learning.md
+// 测试命令： cargo test --manifest-path exercises/06_ticket_management/14_index_mut/Cargo.toml
 
 // TODO: Implement `IndexMut<&TicketId>` and `IndexMut<TicketId>` for `TicketStore`.
 

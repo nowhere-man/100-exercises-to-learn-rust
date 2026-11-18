@@ -1,4 +1,5 @@
 // 学习笔记：docs/03_ticket_v1/11_destructor/learning.md
+// 测试命令： cargo test --manifest-path exercises/03_ticket_v1/11_destructor/Cargo.toml
 
 // We need some more machinery to write a proper exercise for destructors.
 // We'll pick the concept up again in a later chapter after covering traits and

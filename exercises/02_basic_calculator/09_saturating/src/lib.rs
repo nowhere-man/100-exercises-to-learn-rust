@@ -1,4 +1,5 @@
 // 学习笔记：docs/02_basic_calculator/09_saturating/learning.md
+// 测试命令： cargo test --manifest-path exercises/02_basic_calculator/09_saturating/Cargo.toml
 
 pub fn factorial(n: u32) -> u32 {
     let mut result = 1;

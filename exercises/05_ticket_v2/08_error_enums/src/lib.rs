@@ -1,4 +1,5 @@
 // 学习笔记：docs/05_ticket_v2/08_error_enums/learning.md
+// 测试命令： cargo test --manifest-path exercises/05_ticket_v2/08_error_enums/Cargo.toml
 
 // TODO: Use two variants, one for a title error and one for a description error.
 //   Each variant should contain a string with the explanation of what went wrong exactly.
