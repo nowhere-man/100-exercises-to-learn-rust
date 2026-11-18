@@ -1,6 +1,17 @@
 // 学习笔记：docs/03_ticket_v1/05_encapsulation/learning.md
 // 测试命令： cargo test --manifest-path exercises/03_ticket_v1/05_encapsulation/Cargo.toml
 
+/*
+封装是隐藏对象内部表示的做法
+如果所有字段都是公开的，就没有封装。你必须假设字段可以在任何时候被修改为由其类型允许的任何值。
+为了执行更严格的规则，我们必须保持字段私有。然后，我们可以提供公共方法来与Ticket实例交互。那些公共方法将负责维护我们的不变量。
+如果所有字段都是私有的，那么就不能直接使用结构体实例化语法创建实例了。
+
+
+访问器方法：访问器方法是公共方法，允许你读取私有结构体字段（或字段）的值。
+
+
+ */
 pub mod ticket {
     pub struct Ticket {
         title: String,
@@ -37,6 +48,15 @@ pub mod ticket {
         //  - `title` that returns the `title` field.
         //  - `description` that returns the `description` field.
         //  - `status` that returns the `status` field.
+        pub fn description(self) -> String{
+            self.description
+        }
+        pub fn status(self) -> String{
+            self.status
+        }
+        pub fn title(self) -> String{
+            self.title
+        }
     }
 }
 
