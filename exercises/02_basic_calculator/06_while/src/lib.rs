@@ -1,6 +1,9 @@
 // 学习笔记：docs/02_basic_calculator/06_while/learning.md
 // 测试命令： cargo test --manifest-path exercises/02_basic_calculator/06_while/Cargo.toml
 
+/*
+todo!() 宏是一个占位符，编译器可以编译成功，但是运行时会panic。
+*/
 // Rewrite the factorial function using a `while` loop.
 pub fn factorial(n: u32) -> u32 {
     // The `todo!()` macro is a placeholder that the compiler

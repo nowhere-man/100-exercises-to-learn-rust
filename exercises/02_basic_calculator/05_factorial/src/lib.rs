@@ -13,6 +13,24 @@
 //
 // Use only what you learned! No loops yet, so you'll have to use recursion!
 
+/*
+Rust中的变量默认是不可变的。
+
+一旦赋值后，就不能改变其值。
+
+如果你想允许修改，就需要使用mut关键字声明变量为可变：
+
+*/
+fn factorial(n: u32) -> u32 {
+    let mut x = n;
+    let mut result = 1;
+    while x > 0 {
+        result *= x;
+        x -= 1;
+    }
+    return result;
+}
+
 #[cfg(test)]
 mod tests {
     use crate::factorial;
